@@ -1,1 +1,65 @@
 helllo new file
+
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   first
+
+PS C:\Users\Honey\Desktop\react\ToLearnGitAndGithub> git add first
+PS C:\Users\Honey\Desktop\react\ToLearnGitAndGithub> git status
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   first
+
+PS C:\Users\Honey\Desktop\react\ToLearnGitAndGithub> git add first
+PS C:\Users\Honey\Desktop\react\ToLearnGitAndGithub> git status   
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   first
+
+PS C:\Users\Honey\Desktop\react\ToLearnGitAndGithub> git commit -m "helllo"
+[main 42c770a] helllo
+[main 69f48c2] added a new file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 newfile
+PS C:\Users\Honey\Desktop\react\ToLearnGitAndGithub> git log
+commit 69f48c2605023b93d992abcc533f9dc79e8fd16e (HEAD -> main)
+Author: Reetika Singh <poiuReetika@gmail.com>
+Date:   Wed Dec 20 22:55:42 2023 +0530
+
+    added a new file
+
+commit 42c770a88d538c1a81d2cdbe5daea45a15ad35ee
+Author: Reetika Singh <poiuReetika@gmail.com>
+Date:   Wed Dec 20 22:54:45 2023 +0530
+
+    helllo
+
+commit 41d5c11dc5aaeecb479b48b9e5ad8a389648324c (origin/main, origin/HEAD)
+Author: Harshit SIngh <singh.harshit2703@gmail.com>
+Date:   Wed Sep 20 01:38:39 2023 +0530
+
+    Create first
+PS C:\Users\Honey\Desktop\react\ToLearnGitAndGithub> git config --global user.name "harshit"
+PS C:\Users\Honey\Desktop\react\ToLearnGitAndGithub> git config --global user.email "singh.harshit2703@gmail.com"
+PS C:\Users\Honey\Desktop\react\ToLearnGitAndGithub> git push 
+info: please complete authentication in your browser...
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (6/6), 530 bytes | 530.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/iwaili/ToLearnGitAndGithub
+   41d5c11..69f48c2  main -> main
+PS C:\Users\Honey\Desktop\react\ToLearnGitAndGithub> 
